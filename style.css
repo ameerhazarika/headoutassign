@@ -4,6 +4,9 @@
 h5 {
   font-size:12px;
 }
+a {
+  text-decoration: none;
+}
 .navbar {
   display:flex;
   padding:20px;
