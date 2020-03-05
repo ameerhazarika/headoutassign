@@ -24,6 +24,11 @@ nav ul{
   color:#333399;
   font-size: 14px;
 }
+.sidebar ul {
+  list-style:none;
+  font-size:14px;
+  color:#333399;
+}
 .content-section {
   display: flex;
 }
