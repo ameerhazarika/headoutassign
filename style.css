@@ -105,6 +105,10 @@ input[type=text] {
   border: none;
 }
 
+footer {
+  text-align: center
+}
+
 
 /* mobile-styles */
 @media (max-width:768px)
