@@ -13,13 +13,13 @@ h5 {
   width:auto;
 }
 
-ul{
+nav ul{
   display: inline-flex;
   list-style: none;
   margin-left:auto;
 }
 
-ul li {
+ nav ul li {
   padding-right:10px;
   color:#333399;
   font-size: 14px;
@@ -76,6 +76,19 @@ ul li {
 }
 
 
+/* mobile-styles */
+@media (max-width:768px)
+  {
+    nav ul {
+        margin: 0;
+        padding:0;
+    }
 
-.main-content {
-}
+    .sidebar {
+      display:none;
+    }
+    .video-card{
+      margin:10px auto;
+      
+    }
+  }
