@@ -120,6 +120,9 @@ footer {
         margin: 0;
         padding:0;
     }
+    nav ul li {
+      font-size: 12px;
+    }
 
     .sidebar {
       display:none;
@@ -131,7 +134,7 @@ footer {
 
 
   @media screen and (max-width: 600px) {
-    input[type=text], .search-container button {
+    /* input[type=text], .search-container button {
       float: none;
       display: block;
       text-align: left;
@@ -143,6 +146,9 @@ footer {
     input[type=text] {
       border: 1px solid #ccc;  
       display:none;
+    } */
+    .search-container{
+      display: none;
     }
   }
   
